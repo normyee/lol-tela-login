@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+main {
+    display: flex;
+}
+
+.login {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    min-height: 100vh;
+    padding: clamp(35px, 8%, 70px);
+
+
+}
+
+.logo_login {
+    width: 130px;
+    margin-bottom: 80px;
+}
+
+.login_titulo {
+    color: #343434;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.login_rotulo {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.input {
+    width: 100%;
+    background-color: #ECECEC;
+    border: solid 2.5px rgba(255, 255, 255);
+    border-radius: 6px;
+    outline: none;
+    font-size: 0.9rem;
+    padding: 25px 10px 10px;
+    font-weight: 600;
+    color: #343434;
+}
+
+
+.input:focus {
+    background-color: #FFFF;
+    border: solid 2.5px #343434;
+}
+
+.login_rotulo span {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 0.8rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #A7A7A7;
+    cursor: text;
+    transition: all 230ms ease;
+}
+
+.login_rotulo .span_on {
+    font-size: 0.7em;
+    margin: 8px 10px;
+
+}
+
+.icons_login {
+    display: flex;
+    gap: 9px;
+    width: 100%;
+}
+
+.icons_login img {
+    width: 20px;
+}
+
+
+.botao {
+    width: 150px;
+    height: 35px;
+    cursor: pointer;
+
+}
+
+.icons_login .botao:nth-child(1) {
+    background-color: #1877F2;
+    border: solid 2px #1771E6;
+}
+
+.icons_login .botao:nth-child(2) {
+    background-color: #FFFFFF;
+    border: solid 2px #F2F2F2;
+}
+
+.icons_login .botao:nth-child(3) {
+    background-color: #000000;
+    border: solid 2px #0D0D0D;
+
+}
+
+.login--check {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    font-weight: 500;
+    font-size: 0.9rem;
+    height: 10px;
+    margin-top: 14px;
+    align-items: center;
+}
+
+.checkbox--login {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #E6E6E6;
+    border-radius: 4px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+
+.href--link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 400px;
+}
+
+.login--link {
+    text-decoration: none;
+    color: #B2B2B2;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 11px;
+
+}
+
+.login--link:hover {
+    color: #111111;
+}
+
+.wallpaper {
+    background-image: url("./images/wallpaper.jpg");
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
