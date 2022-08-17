@@ -1,12 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://lolstatic-a.akamaihd.net/rso-login-page/3.2.27/assets/favicon.ico">
+    <title>Iniciar sessão</title>
 </head>
+
 <body>
-    
+
+    <main>
+        <section class="login">
+            <img src="./images/logo.png" class="logo_login">
+
+            <h1 class="login_titulo">Fazer login</h1>
+
+            <label class="login_rotulo">
+                <span>Nome de usuário</span>
+                <input type="text" name="username" class="input">
+            </label>
+
+            <label class="login_rotulo">
+                <span>Senha</span>
+                <input type="password" name="password" class="input">
+
+            </label>
+
+            <div class="icons_login">
+                <button type="button" class="botao">
+                    <img src="./images/facebook-icon.png" alt="facebookicon">
+                </button>
+                <button type="button" class="botao">
+                    <img src="./images/google-icon.png" alt="googleicon">
+                </button>
+                <button type="button" class="botao">
+                    <img src="./images/apple-icon.png" alt="appleicon">
+                </button>
+            </div>
+
+            <label class="login--check">
+                <input type="checkbox" class="checkbox--login">
+                <span>Manter login</span>
+            </label>
+
+            <div class="wrapper">
+                <button type="button" class="submit--button" disabled></button>
+            </div>
+
+            <div class="href--link">
+                <a href="#" class="login--link">não consegue iniciar sessão?</a>
+                <a href="#" class="login--link">criar conta</a>
+
+            </div>
+
+        </section>
+
+        <section class="wallpaper"></section>
+    </main>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
